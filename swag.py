@@ -6,7 +6,7 @@ class NFAtoDFAConverter:
         self.initial_states = set()
         self.final_states = set()
     def read_input(self):
-        print("Введите множество состояний ")
+        print("Ничего не вводи - не получится ")
         self.states = set(input().strip().split())
         print(f"Входной алфавит фиксированный: {', '.join(sorted(self.alphabet))}")
         print("Введите функцию переходов")
